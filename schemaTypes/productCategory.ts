@@ -19,6 +19,14 @@ export default defineType({
       },
     }),
     defineField({
+      name: 'cover_img',
+      title: 'Cover Image',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    }),
+    defineField({
       name: 'description',
       title: 'Description',
       type: 'text',
